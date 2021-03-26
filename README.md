@@ -1,0 +1,2 @@
+# StroustrupPnP
+A collection of the exercises and drills in Bjarne Stroustrups "Principle and Practice Using C++"
