@@ -1,0 +1,52 @@
+1. What is the purpose of the "Hello World!" program?
+    The purpose of "Hello World!" is to print "Hello World" onto the screen.
+    But it's also great to get a first look at the syntax to the program and
+    to test the development environment.
+
+2. Name the four parts of a function:
+    1) return type
+    2) function name
+    3) function parameters
+    4) function body
+
+3. Name a function that must appear in every C++ program.
+    The int main() {} function to execute the program
+
+4. In the "Hello World!" program, what is the purpose of the line "return 0;"?
+    The return value of the main function provides info if a program has run 
+    successfully or not. The number 0 says, that the program exited successfully
+    with no error, while other numbers have specific error explanations.
+
+5. What is the purpose of the compiler?
+    The compiler translates human-readable code to object-code which is readable
+    or executable by the machine. It also ensures that the syntax of the code is
+    without errors. It can't check for run-time or link-time errors. Only
+    compile-time errors.
+
+6. What is the purpose of the #include directive?
+    The #include directive instructs the computer to make functions from libraries
+    or predeclared functions from header-files available for the program.
+
+7. What does a .h suffix at the end of a file name signify in C++?
+    The .h suffix signals a header file which is used to declare functions and
+    more. It does not define functions though.
+
+8. What does the linker do for your program?
+    The linker links multiple parts of a program (translation units) to one
+    executable
+
+9. What is the difference between a source file and an object file?
+    A source file has human-readable code. Code that we program ourselves.
+    A object file has code translated for the machine, so that it can understand
+    it. The compiler translates and optimizes our source file to a object file when
+    compiling.
+
+10. What is an IDE and what does it do for you?
+    An IDE is a (Integrated Development Environment) which offers some functionalty
+    that makes your life easier as an programmer. But some prefer to work with just
+    an editor and a terminal to compile or run their code, which is fine too!
+
+11. If you understand everything in the textbook, whi is it necessary to practice?
+    Programming practice makes you a better developer, as you gain experience and
+    get a feel for the problems which are yet to come. And those problems vary
+    much from one and another!
