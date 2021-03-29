@@ -1,0 +1,28 @@
+This is a list of terms and my interpretation of the definition.
+Definitions might change over time, so bear with me :)
+
+// -                Single-line comment
+<< -                Output operator
+C++ -               C++ programming language
+comment             Text that describes a function/class/functionality further
+compiler            Tool that translates source-code to object-code
+compile-time-error  A error that comes up when compiling the code (syntax error)
+cout                The C++ standard output stream
+executable          Program that can be run by the user
+function            Named sequence of statements that can be invoked/called given
+                    arguments and that might return a value
+header              File that includes declaration to functions and more
+IDE                 Integrated Development Environment - A program that helps
+                    programmers program
+#include            Directive that imports certain definitions and declarations
+                    which will be later linked to the right place
+library             Collection of functions, variables and more
+linker              Links multiple object-files together to an executable
+main()              Function that runs the actual program
+object-code         Code that is readable by the machine. Made from source-code
+                    by the compiler
+output              Where the text that gets printed in the terminal is
+program             Has functionalities which can be executed by an executable
+source-code         Code that is read and made by humans. Will be translated to 
+                    object-code when compiling it
+statement           Controls or declares something (if,variables,while,for,etc)
