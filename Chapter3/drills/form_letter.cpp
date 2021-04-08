@@ -29,7 +29,7 @@ int main() {
 
     cout << "If you see " << friend_name << " please ask " << pronoun << " to call me.\n";
 
-    cout << "(Enter the age of the receipient):\n";
+    cout << "(Enter the age of the recipient):\n";
     int age {0};
     cin >> age;
     if (age <= 0 || age >= 110) {   // handles an unbelievable age and if applicable adds another special sentence
