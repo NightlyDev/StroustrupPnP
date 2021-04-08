@@ -46,7 +46,7 @@
     that makes your life easier as an programmer. But some prefer to work with just
     an editor and a terminal to compile or run their code, which is fine too!
 
-11. If you understand everything in the textbook, whi is it necessary to practice?
+11. If you understand everything in the textbook, why is it necessary to practice?
     Programming practice makes you a better developer, as you gain experience and
     get a feel for the problems which are yet to come. And those problems vary
     much from one and another!
