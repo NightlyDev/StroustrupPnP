@@ -24,5 +24,10 @@ int main() {
         pronoun = "her";
     }
     cout << "If you see " << friend_name << " please ask " << pronoun << " to call me.\n";
-    
+    cout << "(Enter the age of the receipient):\n";
+    int age {0};
+    cin >> age;
+    if (age <= 0 || age >= 110) {
+        simple_error("you're kidding!");
+    }
 }
