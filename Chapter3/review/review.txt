@@ -1,0 +1,99 @@
+1. What is meant by the term 'prompt'?
+    A prompt is something where a user can type something to the terminal
+
+2. Which operator do you use to read into a variable
+    The input operator >>
+
+3. If you want the user to input an integer value into your program for a variable named 'number',
+    what are two lines of code you could write to ask the user to do it and to input the value into your program?
+
+    First line to prompt the user to input a number:    cout << "Please write a number and confirm with 'enter'\n";
+    Second line to read the variable:                   cin >> number;
+
+4. What is \n called what purpose does it serve?
+    \n is used to make a linebreak. It's called newline
+
+5. What terminates input into a string?
+    Whitespace (space,newline or tabulator) is needed to terminate a string
+
+6. What terminates input into an integer?
+    Everything that is not a number, aslong the input started with a number.
+    For example: 22 Carlos -> 22
+
+7. How would you write?
+
+cout << "Hello, ";
+cout << first_name;
+cout << "!\n";
+
+in a single line of code?
+    cout << "Hello, " << first_name << "!\n";
+
+8. What is an object?
+    An object is an instance of a class which contains the attributes and methods of the class but is it's own entity in the memory.
+    For example a string has an attribute that has the string length and one attribute that has a char sequence.
+
+9. What is a literal?
+    A literal is the value of a variable. If we have:
+        string name = "Alex";
+    the literal would be 'Alex'!
+
+10. What kinds of literals are there?
+    Numbers, strings or a character
+
+11. What is a variable?
+    A variable is something where we can store a value in. It is defined explicitly by a type in C++. But that differs per programming language!
+
+12. What are typical sizes for a char, an int, and a double?
+    char = 1 Byte
+    int = 4 Byte 
+    double = 8 Byte
+
+13. What measures do we use for the size of small entities in memory, such as ints and strings?
+    Bit or Byte (8-bit) 
+
+14. What is the difference between = and ==?
+    = can be used to assign or initialize (although not recommended) variables.
+    == is the 'is equal' operator which can be used to return a boolean
+
+15. What is a definition?
+    A definition is when you declare a variable and initialize it with a value
+
+16. What is an initialization and how does it differ from an assignment?
+    An initialization is done when defining a variable:
+    int number {0}; // initialized number with 0
+    an assignment is done when I change the value of the currently stored value of an variable:
+    number = 5; // assigned 5 to number (previously 0)
+
+17. What is string concatenation and how do you make it work in C++?
+    String concatenation is when you add a string to another one making it one new string.
+    You can either use the + operator or the += operator if you want to concat an existing string in a variable with a new one.
+
+18. Which of the following are legal names in C++? If a name is not legal, why not?
+    This_little_pig - legal
+    This_1_is fine - not legal, because whitespaces are not allowed in variables
+    2_For_1_special - not legal, because names are not allowed to start with a number
+    latest thing - not legal, because whitespaces are not allowed in variables
+    the_$12_method - not legal, because special characters like $ are not allowed in variables
+    _this_is_ok - legal, but you shouldn't use it, because those are used for system entities or other important implementation which could be overwritten
+    MiniMineMin - legal 
+    number - legal
+    correct? - not legal, because question marks are not letters and special characters are not allowed
+
+19. Give five examples of legal names that you shouldn't use because they are likely to cause confusion.
+    s   _foo    scCf    dumb_function   blehv12313
+
+20. What are some good rules for choosing names?
+    Not too long but descriptive. Instead of making a sentence, use 2 - 3 words that describe the variable.
+
+21. What is type safety and why is it important?
+    Type safety is, when a variable is defined and initialized with a value from the start, as forgetting it might lead to unexpected behaviour.
+
+22. Why can conversion from double to int be a bad thing?
+    Because information is lost when conversing and the number is always round down, giving inaccurate information. 
+
+23. Define a rule to help decide if a conversion from one type to another is safe or unsafe.
+    If it fits into the memory size of a type, it's safe to converse.
+    
+    
+
